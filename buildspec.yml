@@ -10,6 +10,6 @@ phases:
       - dotnet publish -c release -o ./build_output TestApp.csproj
 artifacts:
   files:
-    - CodeBuild-TestApp/build_output/**/*
-    - scripts/**/*
-    - appspec.yml
+    - '**/*'
+  base-directory: ./build_output
+  discard-paths: no
