@@ -8,7 +8,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{199BA1A5-90B4-4986-87E6-F26BCA17B80F}"
 	ProjectSection(SolutionItems) = preProject
 		buildspec.yml = buildspec.yml
-		Procfile.txt = Procfile.txt
 	EndProjectSection
 EndProject
 Global
